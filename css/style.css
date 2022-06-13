@@ -1,0 +1,41 @@
+.grouptable{
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+    text-align: center;
+}
+.grouptable,.grouptable td, .grouptable th {
+	border: 1px solid #595959;
+}
+
+.grouptable td,.grouptable th {
+	padding: 3px;   
+	height: 35px;
+}
+.grouptable th { 
+	font-weight: normal;
+}
+.team {
+    width: 250px;
+    text-align: left;
+}
+.team a {
+    text-decoration: none;
+    color: #000;
+}
+.team a:hover {
+    text-decoration: underline;
+}
+
+.gold {
+    background-color: #ffd70080;
+}
+.silver {
+    background-color: #c0c0c090;
+}
+.bronze {
+    background-color: #ce7f309a;
+}
+.red {
+    background-color: #fa03035d;
+}
